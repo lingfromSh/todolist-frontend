@@ -1,0 +1,61 @@
+{
+  "prefetchRate": 5,
+  "maxThreads": null,
+  "disableRoutePrefixing": false,
+  "outputFileRate": 100,
+  "extensions": [
+    ".js",
+    ".jsx"
+  ],
+  "minLoadTime": 200,
+  "disablePreload": false,
+  "disableRuntime": false,
+  "preloadPollInterval": 300,
+  "productionSourceMaps": false,
+  "entry": "index.js",
+  "plugins": [
+    [
+      "/home/ling/文档/todolist/todolist/node_modules/react-static-plugin-source-filesystem/node.api.js",
+      {
+        "location": "/home/ling/文档/todolist/todolist/src/pages"
+      }
+    ],
+    "/home/ling/文档/todolist/todolist/node_modules/react-static-plugin-reach-router/browser.api.js",
+    "/home/ling/文档/todolist/todolist/node_modules/react-static-plugin-sitemap/dist/node.api.js",
+    "/home/ling/文档/todolist/todolist"
+  ],
+  "paths": {
+    "ROOT": "/home/ling/文档/todolist/todolist",
+    "SRC": "/home/ling/文档/todolist/todolist/src",
+    "DIST": "/home/ling/文档/todolist/todolist/dist",
+    "ASSETS": "/home/ling/文档/todolist/todolist/dist",
+    "PLUGINS": "/home/ling/文档/todolist/todolist/plugins",
+    "TEMP": "/home/ling/文档/todolist/todolist/tmp",
+    "ARTIFACTS": "/home/ling/文档/todolist/todolist/artifacts",
+    "PUBLIC": "/home/ling/文档/todolist/todolist/public",
+    "NODE_MODULES": "/home/ling/文档/todolist/todolist/node_modules",
+    "EXCLUDE_MODULES": "/home/ling/文档/todolist/todolist/node_modules",
+    "PACKAGE": "/home/ling/文档/todolist/todolist/package.json",
+    "HTML_TEMPLATE": "/home/ling/文档/todolist/todolist/dist/index.html",
+    "STATIC_DATA": "/home/ling/文档/todolist/todolist/dist/staticData"
+  },
+  "siteRoot": "/",
+  "basePath": "",
+  "publicPath": "/",
+  "assetsPath": "",
+  "extractCssChunks": false,
+  "inlineCss": false,
+  "babelExcludes": [],
+  "devServer": {
+    "host": "localhost",
+    "port": 3000
+  },
+  "terser": {
+    "terserOptions": {
+      "mangle": {},
+      "parse": {},
+      "compress": {},
+      "output": {}
+    }
+  }
+}
